@@ -1,0 +1,36 @@
+table {
+  width: 100%;
+}
+
+.form-container
+{
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.boxMain {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  align-content: space-between;
+}
+
+.paddingLeft
+{
+  padding-left: 20px;
+}
+
+.paddingTop
+{
+  padding-top: 25px;
+}
+
+.pageTitle {
+  text-align: left;
+  font: normal normal bold 24px/29px Roboto;
+  letter-spacing: 0.72px;
+  color: #005DAC;
+  opacity: 1;
+}

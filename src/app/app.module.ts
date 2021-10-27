@@ -3,14 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ReqresUserComponent } from './components/reqres-user/reqres-user.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModuleModule } from './modules/material-module/material-module.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReqresUserComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MaterialModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
